@@ -26,9 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: install dev dependencies 
-      run: npm install  ffmpeg libwebp-dev
-    
     - name: Install dependencies
       run: npm install
 
